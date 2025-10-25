@@ -35,36 +35,23 @@ The app demonstrates real-world practices like CORS configuration, environment v
 
 ## Tech Stack
 ```
-### Frontend
-| Technology | Version | Purpose | Links |
-|------------|---------|---------|-------|
-| [React](https://reactjs.org/) | 18+ | UI components and state management | [Docs](https://react.dev/) |
-| [Vite](https://vitejs.dev/) | 5.0+ | Fast bundling and hot module replacement | [Docs](https://vitejs.dev/guide/) |
-| [Axios](https://axios-http.com/) | 1.6+ | HTTP client for API calls | [Docs](https://axios-http.com/docs/intro) |
-| [React Hot Toast](https://react-hot-toast.com/) | 2.4+ | User-friendly notifications | [Docs](https://react-hot-toast.com/docs) |
-| [Tailwind CSS](https://tailwindcss.com/) | 3.3+ | Utility-first styling | [Docs](https://tailwindcss.com/docs/installation) |
+| Category              | Technology                                      | Version | Purpose                                  | Documentation                                             |
+| --------------------- | ----------------------------------------------- | ------- | ---------------------------------------- | --------------------------------------------------------- |
+| **Frontend**          | [React](https://reactjs.org/)                   | 18+     | UI components and state management       | [Docs](https://react.dev/)                                |
+|                       | [Vite](https://vitejs.dev/)                     | 5.0+    | Fast bundling and hot module replacement | [Docs](https://vitejs.dev/guide/)                         |
+|                       | [Axios](https://axios-http.com/)                | 1.6+    | HTTP client for API calls                | [Docs](https://axios-http.com/docs/intro)                 |
+|                       | [React Hot Toast](https://react-hot-toast.com/) | 2.4+    | User-friendly notifications              | [Docs](https://react-hot-toast.com/docs)                  |
+|                       | [Tailwind CSS](https://tailwindcss.com/)        | 3.3+    | Utility-first styling                    | [Docs](https://tailwindcss.com/docs/installation)         |
+| **Backend**           | [Node.js](https://nodejs.org/)                  | 18+     | Server runtime environment               | [Docs](https://nodejs.org/en/docs/)                       |
+|                       | [Express.js](https://expressjs.com/)            | 4.18+   | RESTful API framework                    | [Docs](https://expressjs.com/en/starter/hello-world.html) |
+|                       | [MongoDB](https://www.mongodb.com/)             | 4.4+    | NoSQL database for data storage          | [Docs](https://www.mongodb.com/docs/)                     |
+|                       | [Mongoose](https://mongoosejs.com/)             | 8.0+    | MongoDB ODM with schema validation       | [Docs](https://mongoosejs.com/docs/)                      |
+|                       | [Cors](https://www.npmjs.com/package/cors)      | 2.8+    | Enables cross-origin resource sharing    | [Docs](https://www.npmjs.com/package/cors)                |
+|                       | [Dotenv](https://www.npmjs.com/package/dotenv)  | 16.3+   | Environment variable management          | [Docs](https://www.npmjs.com/package/dotenv)              |
+| **Development Tools** | [ESLint](https://eslint.org/)                   | —       | Code linting and style enforcement       | [Docs](https://eslint.org/docs/latest/)                   |
+|                       | [Git](https://git-scm.com/)                     | —       | Version control with GitHub integration  | [Docs](https://git-scm.com/doc)                           |
+|                       | [Postman](https://www.postman.com/)             | —       | API testing and debugging                | [Docs](https://learning.postman.com/docs/)                |
 
-### Backend
-| Technology | Version | Purpose | Links |
-|------------|---------|---------|-------|
-| [Node.js](https://nodejs.org/) | 18+ | Server runtime | [Docs](https://nodejs.org/en/docs/) |
-| [Express.js](https://expressjs.com/) | 4.18+ | RESTful API framework | [Docs](https://expressjs.com/en/starter/hello-world.html) |
-| [MongoDB](https://www.mongodb.com/) | 4.4+ | NoSQL database | [Docs](https://www.mongodb.com/docs/) |
-| [Mongoose](https://mongoosejs.com/) | 8.0+ | MongoDB ODM with schema validation | [Docs](https://mongoosejs.com/docs/) |
-| [Cors](https://www.npmjs.com/package/cors) | 2.8+ | Cross-origin resource sharing | [Docs](https://www.npmjs.com/package/cors) |
-| [Dotenv](https://www.npmjs.com/package/dotenv) | 16.3+ | Environment variable management | [Docs](https://www.npmjs.com/package/dotenv) |
-
-### Development Tools
-- [ESLint](https://eslint.org/): Code linting and style enforcement.
-- [Git](https://git-scm.com/): Version control with GitHub integration.
-- [Postman](https://www.postman.com/): Recommended for API testing.
-
-## Screenshots
-![Contact Form UI](https://via.placeholder.com/800x400?text=Contact+Form+Screenshot) <!-- Replace with actual screenshot URL from your repo -->
-> *Submit form with toast success notification.*
-
-![Backend API Response](https://via.placeholder.com/800x200?text=API+Success+Response) <!-- Add API response screenshot -->
-> *Sample successful message submission response.*
 ```
 ## Installation
 1. **Clone the Repository**:
